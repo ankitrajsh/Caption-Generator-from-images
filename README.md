@@ -54,7 +54,7 @@ pip install -r requirements.txt
 The model was evaluated on a test dataset, and the generated captions were compared to the ground truth captions. The performance metrics include BLEU scores and human evaluation.  
 
 ### Example Output  
-**Input Image**: ![Example Image](path/to/example_image.jpg)
+**Input Image**: ![Example Image](resource/download.png)
 
 **Actual Descriptions**:
 - *startseq: man is standing in front of skyscraper endseq.*
