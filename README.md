@@ -54,9 +54,18 @@ pip install -r requirements.txt
 The model was evaluated on a test dataset, and the generated captions were compared to the ground truth captions. The performance metrics include BLEU scores and human evaluation.  
 
 ### Example Output  
+**Input Image**: ![Example Image](path/to/example_image.jpg)
 
-- **Input Image**: ![Example Image](path/to/example_image.jpg)  
-- **Generated Caption**: "A dog playing in the park."  
+**Actual Descriptions**:
+- *startseq: man is standing in front of skyscraper endseq.*
+- *startseq: man stands in front of skyscraper endseq.*
+- *startseq: man stands in front of very tall building endseq.*
+- *startseq: behind the man in red shirt stands large skyscraper endseq.*
+- *startseq: there is a skyscraper in the distance with man walking in front of the camera endseq.*
+
+**Predicted Description**:
+- *startseq: man stands in front of very tall building endseq.*
+
 
 ## License  
 
