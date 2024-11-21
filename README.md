@@ -8,7 +8,6 @@ This project implements an image captioning model that generates descriptive cap
 - [Model Architecture](#model-architecture)  
 - [Hyperparameters](#hyperparameters)  
 - [Installation](#installation)  
-- [Usage](#usage)  
 - [Results](#results)  
 - [License](#license)  
 
@@ -49,7 +48,7 @@ To set up the project, clone the repository and install the required packages:
 git clone https://github.com/ankitrajsh/Caption-Generator-from-images.git  
 cd Caption-Generator-from-images  
 pip install -r requirements.txt
-
+```
 ## Results  
 
 The model was evaluated on a test dataset, and the generated captions were compared to the ground truth captions. The performance metrics include BLEU scores and human evaluation.  
